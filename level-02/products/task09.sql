@@ -1,0 +1,3 @@
+SELECT id, name, price
+FROM products
+WHERE price BETWEEN 100 AND 500;

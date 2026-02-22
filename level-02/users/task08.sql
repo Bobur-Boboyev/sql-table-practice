@@ -1,0 +1,1 @@
+SELECT first_name, last_name, birth_date FROM users WHERE birth_date IS NOT NULL;

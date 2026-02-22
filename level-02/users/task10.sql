@@ -1,0 +1,3 @@
+SELECT *
+FROM users
+WHERE created_at BETWEEN '2023-01-01' AND '2023-12-31';
