@@ -1,0 +1,4 @@
+UPDATE products
+SET
+    status = 'inactive'
+WHERE stock_quantity BETWEEN 1 AND 5;

@@ -1,0 +1,4 @@
+UPDATE users 
+SET 
+    status = 'active'
+WHERE username = 'john123';

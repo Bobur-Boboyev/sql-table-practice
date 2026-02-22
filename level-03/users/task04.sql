@@ -1,0 +1,4 @@
+UPDATE users
+SET
+    status = 'blocked'
+WHERE login_attempts >= 5;

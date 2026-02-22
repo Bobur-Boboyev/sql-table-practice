@@ -1,0 +1,4 @@
+UPDATE products
+SET
+    discount_price = 900
+WHERE id = 10;

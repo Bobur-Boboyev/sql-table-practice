@@ -1,0 +1,4 @@
+UPDATE products
+SET
+    is_featured = true
+WHERE price > 1000;
